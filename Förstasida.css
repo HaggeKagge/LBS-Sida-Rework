@@ -1,25 +1,37 @@
-.header{
-
-width: auto;
-height: 100px;
-background-color: black;
-
-display: flex;
-justify-content: space-evenly;
+body{
+margin: 0%;
 
 }
 
-.header-text{
+.header {
+    width: auto;
+    height: 100px;
+    background-color: black;
 
-color: white;
-text-decoration: underline;
-font-size: 40px;
-font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: flex-start;
 
 }
 
-.lbs-logga{
+.lbs-logga {
+    scale: 100%;
+}
 
-scale: 170%;
+.header-text {
+    margin: 30px 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium';
+    text-decoration: underline black;
+}
+
+.margin-left{
+
+margin-left: 150px;
+
+}
+
+.margin-left2{
+
+margin-left: 150px;
 
 }
