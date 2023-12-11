@@ -1,19 +1,46 @@
-.lådor{
+body{
+
+    margin: 0%;
+
+}
+
+.title{
+
+    font-family: "Franklin Gothic Medium";
+    padding: 1%;
+
+}
+
+.box-background{
+
+    background-color: hotpink;
+    margin: 1%;
+    padding: 2%;
+
+}
+
+.boxes{
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    column-gap: 10%;
 
     height: 410vh;
 
 }
 
-.låda{
+.box{
 
-    margin: 20px;
+    margin: 1.5%;
+    margin-top: 2%;
     width: 40%;
-    height: 200px;
+    height: 30vh;
     background-color: black;
     color: white;
+
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    padding: 1%;
 
 }
