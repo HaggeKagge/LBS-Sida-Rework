@@ -1,0 +1,19 @@
+.lådor{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    height: 410vh;
+
+}
+
+.låda{
+
+    margin: 20px;
+    width: 40%;
+    height: 200px;
+    background-color: black;
+    color: white;
+
+}
