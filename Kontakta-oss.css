@@ -1,0 +1,21 @@
+.body{
+    margin: 0;
+}
+
+.allpersonal{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 60vh;
+    gap: 5vh;
+}
+
+.personal{
+    padding: 2vh;
+    background-color: grey;
+}
+
+.huvudkontor{
+    display: flex;
+    width: 40vw;
+}
