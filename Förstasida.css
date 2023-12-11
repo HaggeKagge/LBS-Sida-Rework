@@ -1,0 +1,25 @@
+.header{
+
+width: auto;
+height: 100px;
+background-color: black;
+
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.header-text{
+
+color: white;
+text-decoration: underline;
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.lbs-logga{
+
+scale: 170%;
+
+}
