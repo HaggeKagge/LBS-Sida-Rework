@@ -7,7 +7,7 @@ margin: 0%;
 .header{
 
 width: 100%;
-background-color: lightblue;
+background-color: #1c1c1c;
 height: 13vh;
 
 display: flex;
@@ -21,22 +21,69 @@ display: flex;
     align-items: center;
 
     width: 50%;
-    background-color: black;
+    background-color: #1c1c1c;
     height: 13vh;
 
 }
+
+@media screen and (max-width: 1000px){
+
+    .nav{
+    
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    }
+    
+    }
+
+@media screen and (max-width: 1000px){
+
+.nav a{
+
+    font-size: 12px;
+    width: 30%;
+
+}
+
+}
+
+@media screen and (max-width: 660px){
+
+.nav a{
+    
+width: 25%;
+font-size: 9px;
+
+}
+    
+}
+
+@media screen and (max-width: 490px){
+
+    .nav a{
+        
+    width: 25%;
+    font-size: 6px;
+    
+    }
+        
+    }
 
 .nav a{
 
 font-family: "Franklin Gothic Medium";
 color: white;
+text-decoration: underline #1c1c1c;
 
 }
 
 .loggo{
 
     width: 25%;
-    background-color: green;
+    background-color: #1c1c1c;
     height: 13vh;
 
     display: flex;
@@ -45,9 +92,20 @@ color: white;
 
 }
 
+@media screen and (max-width: 1000px){
+
+    .loggo{
+    
+    width: 15%;
+    
+    }
+    
+    }
+
 .loggo a{
 
-    width: 36%;
+    width: 139px;
+
 }
 
 .loggo img{
@@ -58,7 +116,5 @@ align-items: center;
 
 max-width: 100%;
 height: 100%;
-
-
 
 }
