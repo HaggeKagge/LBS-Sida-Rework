@@ -1,0 +1,224 @@
+body{
+
+    margin: 0%;
+    background-color: #f1faee;
+
+}
+
+.header {
+
+    width: 100%;
+    background-color: #161616;
+    height: 13vh;
+
+    display: flex;
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 50%;
+    background-color: #161616;
+    height: 13vh;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nav {
+
+        width: fit-content;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nav a {
+
+        font-size: 12px;
+        width: 30%;
+
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .nav a {
+
+        width: 25%;
+        font-size: 9px;
+
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    .nav a {
+
+        width: 25%;
+        font-size: 6px;
+
+    }
+
+}
+
+.nav a {
+
+    font-family: "Franklin Gothic Medium";
+    color: #f1faee;
+    text-decoration: underline #161616;
+
+}
+
+.loggo {
+
+    width: 25%;
+    background-color: #161616;
+    height: 13vh;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .loggo {
+
+        width: 15%;
+
+    }
+
+}
+
+.loggo a {
+
+    width: 139px;
+
+}
+
+.loggo img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.title{
+
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    color: #161616;
+
+}
+
+.estet{
+
+    height: 100vh;
+
+    background-color: #dbdbdb;
+
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    color: #161616;
+
+}
+
+.estet h1{
+
+    padding-top: 2%;
+
+}
+
+.es-boxes{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 1%;
+
+}
+
+.es-box{
+
+    width: 20vw;
+    height: 80vh;
+    margin: 2.5%;
+    margin-top: 0%;
+
+    background-color: #161616;
+
+    text-align: center;
+    color: #f1faee;
+
+}
+
+.es-box p{
+
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.es-box h2{
+
+    margin-top: 1%;
+
+}
+
+.es-box img{
+
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+
+    border-bottom-style: solid;
+    border-color: #f1faee;
+
+}
+
+.teknik{
+
+    background-color: #f1faee;
+
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    color: #161616;
+
+}
+
+.sam{
+
+    background-color: #e0e0d6;
+
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    color: #161616;
+
+}
+
+.sprak{
+
+    background-color: #f1faee;
+
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    color: #161616;
+
+}
