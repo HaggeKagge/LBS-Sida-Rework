@@ -1,7 +1,7 @@
 body {
 
     margin: 0%;
-    background-color: #fffcf2;
+    background-color: #de4d86;
 
 }
 
@@ -76,7 +76,7 @@ body {
 .nav a {
 
     font-family: "Franklin Gothic Medium";
-    color: white;
+    color: #f1faee;
     text-decoration: underline #161616;
 
 }
@@ -132,16 +132,13 @@ body {
 .title h1 {
 
     margin: 0%;
-    color: #161616;
     font-size: 3.5vw;
 
 }
 
 .box-background {
 
-    background-color: #ea3788;
-    border-radius: 10px;
-    margin: 1%;
+    background-color: #f1faee;
     margin-top: 0%;
     padding: 2%;
 
@@ -152,20 +149,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    row-gap: 1%;
+    justify-content: space-around;
 
-    height: 464vh;
+    height: 430vh;
 
 }
 
 .box {
 
-    margin: 3.1%;
+    margin: 1%;
     width: 25%;
     height: 50vh;
     background-color: #161616;
-    border-radius: 10px;
+    border-radius: 20px;
 
-    color: #fffcf2;
+    color: #f1faee;
     text-align: center;
     font-family: "Franklin Gothic Medium";
     padding: 1%;
