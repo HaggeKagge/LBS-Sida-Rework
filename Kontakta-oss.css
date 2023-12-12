@@ -1,10 +1,11 @@
 body{
-    margin: 0px;
-}
 
-
-.header{
-
+    margin: 0%;
+    
+    }
+    
+    .header{
+    
     width: 100%;
     background-color: #161616;
     height: 13vh;
@@ -87,7 +88,6 @@ body{
     
         display: flex;
         justify-content: center;
-        align-items: center;
     
     }
     
@@ -141,12 +141,8 @@ a{
     color: inherit;
 }
 
-
-
 h1{
     text-align: center;
-    margin-top: 1vh;
-    margin-bottom: 5vh;
 }
 
 .kontaktinformation{
