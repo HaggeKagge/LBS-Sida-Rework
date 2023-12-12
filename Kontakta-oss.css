@@ -122,6 +122,26 @@ body{
 
 
 
+h1{
+    font-family: "Franklin Gothic Medium";
+}
+h2{
+    font-family: "Franklin Gothic Medium";
+}
+h3{
+    font-family: "Franklin Gothic Medium";
+}
+p{
+    font-family: "Franklin Gothic Medium";
+}
+b{
+    font-family: "Franklin Gothic Medium";
+}
+sub{
+    font-family: "Franklin Gothic Medium";
+}
+
+
 
 a{ 
     text-decoration: none;
