@@ -1,6 +1,7 @@
 body{
 
     margin: 0%;
+    background-color: #fffcf2;
 
 }
 
@@ -8,14 +9,23 @@ body{
 
     font-family: "Franklin Gothic Medium";
     padding: 1%;
+    margin-bottom: 0%;
+
+}
+
+.title h1{
+
+    margin: 0%;
+    color: #1c1c1c;
 
 }
 
 .box-background{
 
-    background-color: hotpink;
+    background-color: #ea3788;
     border-radius: 10px;
     margin: 1%;
+    margin-top: 0%;
     padding: 2%;
 
 }
@@ -27,20 +37,37 @@ body{
     flex-direction: column;
     column-gap: 10%;
 
-    height: 410vh;
+    height: 485vh;
 
 }
 
 .box{
 
     margin: 1.5%;
+    margin-bottom: 4%;
     margin-top: 2%;
     width: 40%;
-    height: 30vh;
-    background-color: black;
+    height: 33vh;
+    background-color: #1c1c1c;
     border-radius: 10px;
 
-    color: white;
+    color: #fffcf2;
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    padding: 1%;
+
+}
+
+.bottom-box{
+
+    margin: 1.5%;
+    margin-top: 2%;
+    width: 40%;
+    height: 33vh;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+
+    color: #fffcf2;
     text-align: center;
     font-family: "Franklin Gothic Medium";
     padding: 1%;
