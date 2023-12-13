@@ -129,11 +129,10 @@ body{
 
 .estet{
 
-    height: 100vh;
+    height: 275vh;
 
     background-color: #dbdbdb;
 
-    text-align: center;
     font-family: "Franklin Gothic Medium";
     color: #161616;
 
@@ -142,6 +141,7 @@ body{
 .estet h1{
 
     padding-top: 2%;
+    text-align: center;
 
 }
 
@@ -157,28 +157,37 @@ body{
 
 .es-box{
 
-    width: 20vw;
+    width: 22vw;
     height: 80vh;
     margin: 2.5%;
     margin-top: 0%;
 
     background-color: #161616;
 
-    text-align: center;
     color: #f1faee;
 
 }
 
 .es-box p{
 
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding-top: 3%;
+
+    border-top-style: solid;
+    border-top-color: #f1faee;
 
 }
 
 .es-box h2{
 
-    margin-top: 1%;
+    margin-bottom: 0%;
+    margin: 2%;
+    margin-left: 5%;
+    
+    height: 9vh;
+    text-align: left;
 
 }
 
