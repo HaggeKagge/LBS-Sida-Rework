@@ -131,7 +131,7 @@ body{
 
     height: 275vh;
 
-    background-color: #dbdbdb;
+    background-color: #cacaca;
 
     font-family: "Franklin Gothic Medium";
     color: #161616;
@@ -161,6 +161,8 @@ body{
     height: 80vh;
     margin: 2.5%;
     margin-top: 0%;
+
+    border-radius: 5px;
 
     background-color: #161616;
 
@@ -199,6 +201,8 @@ body{
 
     border-bottom-style: solid;
     border-color: #f1faee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 
@@ -206,19 +210,152 @@ body{
 
     background-color: #f1faee;
 
-    text-align: center;
     font-family: "Franklin Gothic Medium";
     color: #161616;
 
 }
 
-.sam{
-
-    background-color: #e0e0d6;
+.teknik h1{
 
     text-align: center;
+
+}
+
+.tk-boxes{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 1%;
+
+}
+
+.tk-box{
+
+    width: 22vw;
+    height: 80vh;
+    margin: 2.5%;
+    margin-top: 0%;
+
+    border-radius: 5px;
+
+    background-color: #161616;
+
+    color: #f1faee;
+
+}
+
+.tk-box p{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding-top: 3%;
+
+    border-top-style: solid;
+    border-top-color: #f1faee;
+
+}
+
+.tk-box h2{
+
+    margin-bottom: 0%;
+    margin: 2%;
+    margin-left: 5%;
+    
+    height: 9vh;
+    text-align: left;
+
+}
+
+.tk-box img{
+
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+
+    border-bottom-style: solid;
+    border-color: #f1faee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.sam{
+
+    background-color: #cacaca;
+
     font-family: "Franklin Gothic Medium";
     color: #161616;
+
+}
+
+.sam h1{
+
+    padding-top: 2%;
+    text-align: center;
+
+}
+
+.sa-boxes{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 1%;
+
+}
+
+.sa-box{
+
+    width: 22vw;
+    height: 80vh;
+    margin: 2.5%;
+    margin-top: 0%;
+
+    border-radius: 5px;
+
+    background-color: #161616;
+
+    color: #f1faee;
+
+}
+
+.sa-box p{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding-top: 3%;
+
+    border-top-style: solid;
+    border-top-color: #f1faee;
+
+}
+
+.sa-box h2{
+
+    margin-bottom: 0%;
+    margin: 2%;
+    margin-left: 5%;
+    
+    height: 9vh;
+    text-align: left;
+
+}
+
+.sa-box img{
+
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+
+    border-bottom-style: solid;
+    border-color: #f1faee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 
