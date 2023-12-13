@@ -238,7 +238,9 @@ h1{
     width: 25vw;
     margin: 1vh 0.5vw;
     border-radius: 2%;
+    overflow: hidden;
 }
+
 
 .skola h3{
     margin: 2vh 0vw;
@@ -295,6 +297,9 @@ h1{
     .skol-kontakt{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        gap: 2vh;
+        width: inherit;
     }
 
 }

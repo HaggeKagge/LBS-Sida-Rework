@@ -134,7 +134,6 @@ p{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100vh;
     padding: 0;
 }
 
@@ -142,7 +141,7 @@ p{
     font-size: x-large;
     height: auto;
     color: black;
-    background-color: rgb(156, 156, 156);
+    background-color: grey; /*#1c74ab*/
     width: 50%;
 }
 
@@ -156,7 +155,6 @@ p{
 
 .introduktion img{
     object-fit: cover;
-    opacity: 0.2;
     width: 50%;
     height: inherit;
 }
@@ -172,11 +170,12 @@ p{
 
 
 .awards{
-    background-color: rgb(197, 197, 197);
+    background-color: grey; /*#1c74ab*/
     padding: 5vh 15vh 10vh 15vh;
     margin-bottom: 20vh;
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 .awards-flex{
@@ -185,7 +184,7 @@ p{
 }
 
 .aw{
-    background-color: rgb(220, 219, 219);
+    background-color: rgb(205, 205, 205); /*#74ccd4ce*/
     border-radius: 2%;
     width: 25vw;
     display: flex;
@@ -243,7 +242,13 @@ p{
 }
 @media(max-width: 550px){
 
-    .introduktion-text{
+    h1{
+        font-size: medium;
+    }
+    h3{
+        font-size: medium;
+    }
+    p{
         font-size: medium;
     }
     .awards-flex{
