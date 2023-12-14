@@ -230,6 +230,7 @@ body {
 @media screen and (max-width: 700px) {
 
     .låda1text {
+
         width: 100%;
         text-align: center;
 
@@ -323,24 +324,24 @@ body {
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    .låda2 h2{
-    
+    .låda2 h2 {
+
         font-size: 2.5vh;
-    
+
     }
-    
+
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-    .låda2 h1{
-    
+    .låda2 h1 {
+
         font-size: 4vh;
-    
+
     }
-    
+
 }
 
 .låda3 {
@@ -400,37 +401,22 @@ body {
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    .låda3{
-    
+    .låda3 {
+
         font-size: 2vh;
-    
+
     }
-    
+
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 475px) {
 
-    .låda3{
-    
+    .låda3 {
+
         font-size: 1.184vh;
-    
+
     }
-    
-}
-
-.footer{
-
-width: 100%;
-
-background-color: blue;
-
-}
-
-.footer h1{
-
-margin-top: 0%;
-margin-bottom: 0%;
 
 }
