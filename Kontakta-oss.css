@@ -152,6 +152,9 @@ h1{
     text-align: center;
 }
 
+
+
+
 .kontaktinformation{
     background-color: rgb(222, 220, 220);
     padding: 2vh 1vw; 
@@ -218,6 +221,9 @@ h1{
 }
 
 
+
+
+
 .skol-information{
     margin: 20vh 5vw;
 }
@@ -238,8 +244,51 @@ h1{
     width: 25vw;
     margin: 1vh 0.5vw;
     border-radius: 2%;
+    display: flex;
     overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 9vw;
 }
+
+.kontakt-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.skol-kontakt{
+    height: 15vh;
+}
+
+
+.skola-img{
+    margin-top: 2.5vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skola img{
+    margin: 0vh 0.2vw;
+    opacity: 0.6;
+}
+.skola img:hover {
+    opacity: 1;
+}
+.facebook{
+    margin-bottom: 0.3vh;
+    width: 2.2vw;
+    height: 2.2vw;
+}
+.insta{
+    width: 3vw;
+    height: 3vw;
+}
+.yt{
+    width: 3vw;
+    height: 3.5vw;
+}
+
 
 .skola h3{
     margin: 2vh 0vw;
@@ -252,6 +301,12 @@ h1{
 
 
 
+@media (max-width:1000px){
+    .skola{
+        display: block;
+        height: auto;
+    }
+}
 
 @media (max-width: 600px){
 
@@ -289,16 +344,39 @@ h1{
         align-items: center;
     }
 
-    .skola p{
-        width: 30vw;
+    .kontakt-container h3{
+        text-align: center;
     }
 
     .skol-kontakt{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 2vh;
-        width: inherit;
+        gap: 3vw;
     }
 
+    .skol-kontakt p{
+        width: 30vw;
+    }
+
+    .skola-img{
+        justify-content: space-evenly;
+    }
+    .skola img{
+        margin: 0vh 1.3vw;
+    }
+    .facebook{
+        margin-bottom: 0.3vh;
+        width: 6vw;
+        height: 6vw;
+    }
+    .insta{
+        width: 7vw;
+        height: 7.5vw;
+    }
+    .yt{
+        width: 7.8vw;
+        height: 8vw;
+    }
+    
 }
