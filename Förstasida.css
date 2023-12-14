@@ -1,6 +1,8 @@
 body {
 
     margin: 0%;
+    font-family: "Franklin Gothic Medium";
+    width: auto;
 
 }
 
@@ -165,6 +167,16 @@ body {
 
 }
 
+@media screen and (max-width: 1165px) {
+
+    .slogan {
+
+        text-align: center;
+
+    }
+
+}
+
 @media screen and (max-width: 500px) {
 
     .slogan {
@@ -176,35 +188,32 @@ body {
 
 }
 
-.bigBox {
-
-    width: 100%;
-    height: 1500px;
-    background-color: white;
-
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
 .låda1 {
 
-    width: 100%;
-    height: 33%;
-
-    background-color: aqua;
+    width: auto;
 
     display: flex;
     justify-content: flex-end;
 
+    background-color: #cacaca;
+
 }
+
+@media screen and (max-width: 700px) {
+
+    .låda1 {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
 
 .låda1bild {
 
     width: 49%;
-    height: auto;
-
-    background-color: #161616;
 
 }
 
@@ -213,7 +222,7 @@ body {
     width: 100%;
     height: 100%;
 
-    object-fit: contain;
+    object-fit: cover;
 
 }
 
@@ -222,56 +231,199 @@ body {
     width: 51%;
     height: 100%;
 
-    background-color: blueviolet;
+}
+
+@media screen and (max-width: 700px) {
+
+    .låda1text {
+        width: 100%;
+        text-align: center;
+
+    }
 
 }
 
-.låda1text h1{
+.låda1text h1 {
 
     font-size: 7vh;
     margin-left: 4%;
 
+    font-family: "Franklin Gothic Medium";
+
 }
 
-.låda1text h2{
+.låda1text h2 {
 
     margin-left: 4%;
-    line-height: 6vh;
+    line-height: 7vh;
+    margin-right: 4%;
+
+    font-family: "Franklin Gothic Medium";
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .låda1text h2 {
+
+        font-size: 2vh;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .låda1text h1 {
+
+        font-size: 4vh;
+
+    }
 
 }
 
 .låda2 {
 
     width: 100%;
-    height: 33%;
 
-    background-color: grey;
+    background-color: #f1faee;
 
     text-align: center;
 
 }
 
-.låda2 h1{
+.låda2 h1 {
 
     font-size: 7vh;
 
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 3%;
+
+    font-family: "Franklin Gothic Medium";
+
 }
 
-.låda2 h2{
+.låda2 h2 {
 
-margin-bottom: 3%;
-margin-left: 15%;
-margin-right: 15%;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
 
+    padding-bottom: 3%;
+
+    line-height: 7vh;
+
+    font-family: "Franklin Gothic Medium";
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .låda2 h2 {
+
+        font-size: 3vh;
+
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .låda2 h2{
+    
+        font-size: 2.5vh;
+    
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+
+    .låda2 h1{
+    
+        font-size: 4vh;
+    
+    }
+    
 }
 
 .låda3 {
 
     width: 100%;
-    height: 33%;
 
-    background-color: aqua;
+    text-align: center;
 
+    background-color: #cacaca;
+
+}
+
+.låda3skolor {
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.låda3 h1 {
+
+    font-family: "Franklin Gothic Medium";
+
+    margin-top: 0%;
+
+    padding-top: 3%;
+
+}
+
+.låda3 h2 {
+
+    font-family: "Franklin Gothic Medium";
+
+    border-bottom-style: solid;
+
+    border-bottom-color: #161616;
+
+}
+
+.låda3lådor {
+
+    height: 7vh;
+    width: 25%;
+    margin: 2%;
+
+    margin-bottom: 1%;
+
+    margin-top: 0%;
+
+    text-align: left;
+    align-items: center;
+
+    display: flex;
+
+}
+
+@media screen and (max-width: 600px){
+
+    .låda3{
+    
+        font-size: 2vh;
+    
+    }
+    
+}
+
+@media screen and (max-width: 475px){
+
+    .låda3{
+    
+        font-size: 1.184vh;
+    
+    }
+    
 }
 
 
