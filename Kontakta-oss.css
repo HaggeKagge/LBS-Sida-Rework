@@ -262,6 +262,7 @@ h1{
 
 .skola-img{
     margin-top: 2.5vh;
+    margin-left: 1vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -276,16 +277,16 @@ h1{
 }
 .facebook{
     margin-bottom: 0.3vh;
-    width: 5vh;
-    height: 5vh;
+    width: 4.7vh;
+    height: 4.7vh;
 }
 .insta{
-    width: 6.5vh;
-    height: 6.5vh;
+    width: 6.2vh;
+    height: 6.2vh;
 }
 .yt{
-    width: 7.5vh;
-    height: 8vh;
+    width: 6.9vh;
+    height: 7.5vh;
 }
 
 
@@ -339,20 +340,173 @@ h1{
         margin-bottom: 3vh;
         padding: 2vh;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         box-sizing: border-box;
     }
 
     .kontakt-container p{
-        width: 40vw;
+        width: 45vw;
     }
 
-    .skola-img{
-        justify-content: space-evenly;
-    }
     .skola img{
         margin: 0vh 1.3vw;
     }
     
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+
+    width: 100%;
+    height: fit-content;
+
+    background-color: #161616;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    color: #f1faee;
+    font-family: "Franklin Gothic Medium";
+
+}
+
+.footerbild {
+
+    width: 15%;
+    height: 50%;
+
+    background-color: #161616;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerbild img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+}
+
+.footertext1 {
+
+    width: 15%;
+    height: 80%;
+
+    background-color: #161616;
+
+}
+
+.footertext2 {
+
+    width: 15%;
+    height: 80%;
+
+    background-color: #161616;
+
+}
+
+.footertext3 {
+
+    width: 15%;
+    height: 80%;
+
+    background-color: #161616;
+
+}
+
+.footer h1 {
+
+    border-bottom-style: solid;
+
+    font-size: 24px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.footer h2 {
+
+    border-bottom-style: solid;
+
+    font-size: 20px;
+
+    padding-top: 5%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .footer h1 {
+
+        font-size: 18px;
+
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .footer h2 {
+
+        font-size: 14px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer h1 {
+
+        font-size: 14px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer h2 {
+
+        font-size: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+
+    .footer h1 {
+
+        font-size: 8.5px;
+
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+
+    .footer h2 {
+
+        font-size: 7px;
+
+    }
+
 }
