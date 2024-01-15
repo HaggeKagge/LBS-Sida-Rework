@@ -141,7 +141,7 @@ p{
     font-size: x-large;
     height: auto;
     color: black;
-    background-color: grey;
+    background-color: #DD5F31;
     width: 50%;
 }
 
@@ -170,7 +170,7 @@ p{
 
 
 .awards{
-    background-color: grey; 
+    background-color: #F0D0C4; 
     padding: 5vh 15vh 10vh 15vh;
     margin-bottom: 13vh;
     display: flex;
@@ -184,7 +184,7 @@ p{
 }
 
 .aw{
-    background-color: rgb(205, 205, 205); 
+    background-color: rgb(255, 255, 255); 
     border-radius: 2%;
     width: 25vw;
     display: flex;
